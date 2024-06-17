@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -p "Programming is like building a multilingual puzzle
+gcc -o $CFILE "Programming is like building a multilingual puzzle
