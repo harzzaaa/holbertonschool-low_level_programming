@@ -4,8 +4,7 @@
 
 /**
  *main - Print random number each time the script is executed
- *Return: Always 0 Fam
- *
+ *Return: response
  */
 int main(void)
 {
