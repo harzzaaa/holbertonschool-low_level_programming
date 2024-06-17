@@ -1,2 +1,6 @@
 #!/bin/bash
-export CFILE=0-main.c
+#include <stdio.h>
+int main (void)
+{
+	return (0);
+}
