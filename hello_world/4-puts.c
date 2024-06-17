@@ -1,10 +1,12 @@
 #include <stdio.h>
+/*
+ *main
+ *return 0
+*/
+
 int main()
 {
-	char* str1 = "Programming is like building a multilingual puzzle";
-	puts(str1);
-
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle\n");
 
 	return 0;
 }	
