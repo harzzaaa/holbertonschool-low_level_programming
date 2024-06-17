@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ *main - Print random number each time the script is executed
+ *Return: Always 0 Fam
+ *
+ */
 int main(void)
 {
 	int n;
