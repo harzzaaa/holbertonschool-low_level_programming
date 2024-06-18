@@ -9,7 +9,7 @@
 int main(void)
 {
 	for(int x = 'A'; x <= 'Z'; x++)
-	      x = tolower(x);
-		putchar(x);
-		return (0);
+	     char small = tolower(x);
+		putchar(small);
+	return (0);
 }
