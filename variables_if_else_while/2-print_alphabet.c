@@ -8,8 +8,12 @@
 
 int main(void)
 {
+	int i;
+
 	for(i = 97; i <= 122; i++)
-	     char small = tolower(x);
-		putchar(small);
-	return (0);
+	{
+		putchar(i);
+	}
+		putchar('\n');
+		return (0);
 }
