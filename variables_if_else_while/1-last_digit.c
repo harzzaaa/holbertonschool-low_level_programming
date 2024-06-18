@@ -4,8 +4,10 @@
 
 /**
  * main - Prints last digits Random Num
- * Return: Last number
- */
+ * Return: Last Digit
+*/
+
+
 int main(void)
 {
 	int n, ld;
@@ -19,6 +21,6 @@ int main(void)
 	else if (ld == 0)
 		printf("is 0\n");
 	else if (ld < 6 && ld != 0)
-		printf("is less than 6 and not 0\n")
+		printf("is less than 6 and not 0\n");
 	return (0);
 }
