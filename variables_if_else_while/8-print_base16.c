@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main -
- * Return:
+ * main - Print numbers of base 16 in lowercase
+ * Return: Base 16 in lowercase
 */
 
 int main(void)
