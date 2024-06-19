@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - Prints Alphabet Without q and e letters
- * Return: Alphabet No q & e
+ * Return: Alphabt
 */
 
 int main(void)
