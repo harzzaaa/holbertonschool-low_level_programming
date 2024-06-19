@@ -18,6 +18,6 @@ int main(void)
 		else
 			putchar(i + 'a' - 10);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
