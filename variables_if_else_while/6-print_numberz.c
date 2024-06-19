@@ -7,13 +7,13 @@
  * Return: Numbers
 */
 
-int main(void)
+int digit(void)
 {
-	int 1;
+	int digit;
 
-	for (i = 0; i < 10; i++)
+	for (digit = 0; digit < 10; digit++)
 	{
-		putchar(i);
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
