@@ -3,7 +3,6 @@
 /**
  * times_table - Function prints 9 times tablet from 0
  * Return: times table
- *
 */
 
 void times_table(void)
@@ -17,7 +16,7 @@ void times_table(void)
 			result = number * multiplier;
 
 			if (multiplier == 0)
-			_putchar(',');
+			_putchar('0')²;
 
 			else if (result < 10 && multiplier != 0)
 			{
