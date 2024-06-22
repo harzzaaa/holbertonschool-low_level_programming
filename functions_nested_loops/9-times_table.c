@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * times_tablet - Function prints 9 times tablet from 0
+ * times_table - Function prints 9 times tablet from 0
  * Return: times tablet
 */
 
-void times_tablet(void)
+void times_table(void)
 {
 	int number, multiplier, result;
 
@@ -16,7 +16,7 @@ void times_tablet(void)
 			result = number * multiplier;
 
 			if (multiplier == 0)
-			_putchar('0')²;
+				_putchar('0');
 
 			else if (result < 10 && multiplier != 0)
 			{
