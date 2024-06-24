@@ -15,7 +15,7 @@ void more_numbers(void)
 	{
 		for (m = 0; m <= 14; m++)
 		{
-			if (m > 10)
+			if (m < 10)
 				newdigit = m + '0';
 			else
 				newdigit = '1';
