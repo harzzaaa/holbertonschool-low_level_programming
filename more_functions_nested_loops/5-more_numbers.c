@@ -16,7 +16,7 @@ void more_numbers(void)
 		{
 			_putchar(m + '0');
 			if (m < 14)
-				_putchar(' ');
+			_putchar(' ');
 		}
 	_putchar('\n');
 	}
