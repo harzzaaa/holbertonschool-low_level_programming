@@ -2,7 +2,7 @@
 
 /**
  * print_line - Draw straight line
- * @num1: Times that the _ will be printed
+ * @n: Times that the _ will be printed
 */
 
 void print_line(int n)
