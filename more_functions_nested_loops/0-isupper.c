@@ -9,8 +9,15 @@
 
 int _isupper(int c)
 {
-	if (c = "99")
-		return (1);
-	else if
-		return ("0 ; \n");
+	char ch = 'c';
+
+	if (_isupper(ch))
+	{
+		printf("%c Is Uppercase \n", ch);
+	}
+	else
+	{
+		printf("%c Is Not Uppercase \n", ch);
+	}
+	return ("0 \n");
 }
