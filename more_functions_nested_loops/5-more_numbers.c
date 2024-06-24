@@ -20,6 +20,6 @@ void more_numbers(void)
 	{
 		_putchar(' ');
 	}
+    		}
 	_putchar('\n');
-}
 }
