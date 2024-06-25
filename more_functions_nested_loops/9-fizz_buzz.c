@@ -21,7 +21,7 @@ int main(void)
 			printf("Buzz");
 
 		else
-			printf("%d ", noon);
+			printf("%d", noon);
 
 		if (noon != 100)
 			printf(" ");
