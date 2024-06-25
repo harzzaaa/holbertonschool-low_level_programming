@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * main - FizzBuzz Function
+ * @noon: integer
+ * Return: 0
 */
 
 int main(void)
