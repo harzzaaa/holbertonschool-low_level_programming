@@ -2,7 +2,6 @@
 
 /**
  * main - FizzBuzz Function
- * @noon: integer
  * Return: 0
 */
 
