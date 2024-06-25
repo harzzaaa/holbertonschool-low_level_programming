@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_square - Draw a square
+ * @size: size of the square
 */
 
 void print_square(int size)
@@ -19,9 +18,10 @@ void print_square(int size)
 		{
 			for (num2 = 0; num2 < num1; num2++)
 			{
+				_putchar(' ');
+			}
 				_putchar('#');
 				_putchar('\n');
-			}
 		}
 	}
 }
