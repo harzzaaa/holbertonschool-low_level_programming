@@ -7,21 +7,22 @@
  *
 */
 
-int _strlen(char *s) 
+int _strlen(char *s)
 {
 	int lenght = 0;
 
-	while (s[lenght] != '\0'){
+	while (s[lenght] != '\0')
+
 		lenght++;
-	}
-	return lenght;
+
+	return (lenght);
 }
 
-int main()
-{	
+int main(void)
+{
 	char strlenght[] = "Welcome You";
 
 	printf("%d\n", _strlen(strlenght));
 
-	return 0;
+	return (0);
 }
