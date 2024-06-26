@@ -4,6 +4,8 @@
 /**
  *swap_int - function that swaps *a & *b
  *main1 - swaps a & b
+ *@a: integer
+ *@b: integer
  *Return: 0
 */
 
