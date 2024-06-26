@@ -18,7 +18,7 @@ int _strlen(char *s)
 	return (lenght);
 }
 
-int main(void)
+int main1(void)
 {
 	char strlenght[] = "Welcome You";
 
