@@ -23,7 +23,7 @@ int _strlen(char *s)
  *main1 - prints lenght of string
  *
  *Return: 0
-*/ 
+*/
 int main1(void)
 {
 	char strlenght[] = "Welcome You";
