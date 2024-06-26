@@ -2,12 +2,8 @@
 #include <stdio.h>
 
 /**
- * swap_int - Swap *a and *b
- * main1 - Swap two integers 
- * @a: 1st integer
- * @b: 2sd integer
+ *
 */
-
 
 void swap_int(int *a, int *b)
 {
