@@ -3,8 +3,6 @@
 
 /**
  * swap_int - Swap *a and *b
- * @a: 1st integer
- * @b: 2sd integer
 */
 
 void swap_int(int *a, int *b)
@@ -13,7 +11,7 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = err;
 }
-int main(void)
+int main1(void)
 {
 	int a = 98;
 	int b = 42;
@@ -24,4 +22,3 @@ int main(void)
 
 	return ('0');
 }
-
