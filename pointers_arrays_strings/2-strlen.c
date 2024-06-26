@@ -3,8 +3,9 @@
 #include <string.h>
 
 /**
- *
- *
+ * _strlen - function that returns the lenght of a string
+ * main1 - prints the lenght of the string
+ * Return: 0
 */
 
 int _strlen(char *s)
