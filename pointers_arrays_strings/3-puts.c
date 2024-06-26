@@ -18,14 +18,14 @@ void _puts(char *str)
 }
 
 /**
- *main1 - test of _puts function 
+ *main1 - test of _puts function
  *
- *Return: 0 
+ *Return: 0
 */
 
 int main1(void)
 {
 	char string[] = "Welcome Back";
        _puts(string);
-	return 0;
+	return (0);
 }
