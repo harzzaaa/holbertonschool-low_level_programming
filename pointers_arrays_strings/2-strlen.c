@@ -3,10 +3,9 @@
 #include <string.h>
 
 /**
- * _strlen - function that returns the lenght of a string
- * main1 - prints the lenght of the string
- * @s: Pointer
- * Return: 0
+ *_strlen - function that returns the lenght of a string
+ *@s: Pointer
+ *Return: 0
 */
 
 int _strlen(char *s)
@@ -20,6 +19,11 @@ int _strlen(char *s)
 	return (lenght);
 }
 
+/**
+ *main1 - prints lenght of string
+ *
+ *Return: 0
+*/ 
 int main1(void)
 {
 	char strlenght[] = "Welcome You";
