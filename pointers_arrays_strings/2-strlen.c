@@ -5,6 +5,7 @@
 /**
  * _strlen - function that returns the lenght of a string
  * main1 - prints the lenght of the string
+ * @s: Pointer
  * Return: 0
 */
 
