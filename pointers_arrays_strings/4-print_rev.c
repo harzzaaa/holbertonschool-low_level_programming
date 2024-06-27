@@ -17,9 +17,9 @@ void print_rev(char *s)
 		longueur++;
 	}
 
-	for (m = longueur - 1; m >= 0; longueur--)
+	for (m = longueur - 1; m >= 0; m--)
 	{
-		printf("%c", s[m]);
+		printf("%d", s[m]);
 	}
 	printf("\n");
 }
