@@ -8,16 +8,16 @@
 void print_rev(char *s)
 {
 	int m;
-	int longueur = 0;
+	int l = 0;
 
-	for (m = 0; s[longueur] != '\0'; m++)
+	for (m = 0; s[l] != '\0'; m++)
 	{
 
 	}
 
-	for (m = longueur - 1; m >= 0; m--)
+	for (m = l - 1; m >= 0; m--)
 	{
-		_putchar(s[longueur]);
+		_putchar(s[l]);
 	}
 	_putchar('\n');
 }
