@@ -9,11 +9,23 @@
 
 void print_rev(char *s)
 {
-	while (*s)
-	{
-	_putchar(*s);
-	s++;
-	}
+	int m, n;
+	char chosepropre;
+	int longueur = strlen(s);
+
+	for (m = 0, n = longueur - 1; m < n; m++, n--)
+		;
+
+		{
+			chosepropre = s[m];
+			s[m] = s[n];
+			s[n] = chosepropre;
+		}
+		while (*s)
+		{
+		_putchar(*s);
+		s++;
+		}
 	_putchar('\n');
 }
 
