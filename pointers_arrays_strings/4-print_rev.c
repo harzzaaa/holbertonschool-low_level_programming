@@ -32,7 +32,7 @@ void print_rev(char *s)
 int main1(void)
 {
 	{
-	char reversestring[] = "Reverse String For ?";
+	char reversestring[] = "Reverse String For?";
 
 	print_rev(reversestring);
 
