@@ -25,7 +25,10 @@ void _puts(char *str)
 
 int main1(void)
 {
+	{
 	char string[] = "Welcome Back";
+
 	_puts(string);
+	}
 	return (0);
 }
