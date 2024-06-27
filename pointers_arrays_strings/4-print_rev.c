@@ -19,7 +19,7 @@ void print_rev(char *s)
 
 	for (m = longueur - 1; m >= 0; m--)
 	{
-		printf("%c", s[m]);
+		_putchar(*s);
 	}
-	printf("\n");
+	_putchar("\n");
 }
