@@ -21,3 +21,11 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+int main1(void)
+{
+	char string[] = "Holberton!";
+	{
+	print_rev(string);
+	}
+	return 0;
+}
