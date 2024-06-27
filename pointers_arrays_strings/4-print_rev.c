@@ -9,23 +9,18 @@
 
 void print_rev(char *s)
 {
-	int m, n;
-	char chosepropre;
-	int longueur = strlen(s);
+	int m;
+	int longueur = 0;
 
-	for (m = 0, n = longueur - 1; m < n; m++, n--)
-		;
+	while (s[longueur] != '\0')
+	{
+		longueur++;
+	}
 
-		{
-			chosepropre = s[m];
-			s[m] = s[n];
-			s[n] = chosepropre;
-		}
-		while (*s)
-		{
-		_putchar(*s);
-		s++;
-		}
+	for (m = longueur - 1; m >= 0; m--)
+	{
+		printf("%c", s[m]);
+	}
 	_putchar('\n');
 }
 
@@ -39,11 +34,7 @@ int main1(void)
 	{
 	char reversestring[] = "Reverse String For ?";
 
-	printf("=%s\n", reversestring);
-
 	print_rev(reversestring);
-
-	printf("=%s\n", reversestring);
 
 	}
 	return (0);
