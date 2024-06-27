@@ -27,5 +27,5 @@ int main1(void)
 	{
 	print_rev(string);
 	}
-	return 0;
+	return (0);
 }
