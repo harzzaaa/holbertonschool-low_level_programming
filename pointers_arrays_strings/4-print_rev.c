@@ -21,7 +21,7 @@ void print_rev(char *s)
 	{
 		printf("%c", s[m]);
 	}
-	_putchar('\n');
+	printf("\n");
 }
 
 /**
