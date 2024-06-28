@@ -9,13 +9,14 @@
 void puts_half(char *str)
 {
 	int i = 0;
+	int si;
 
 	while (str[i] != '\0')
 	{
 		i++;
 	}
 
-	int si = (i + 1) / 2;
+	si = (i + 1) / 2;
 
 	while (str[si] != '\0')
 	{
