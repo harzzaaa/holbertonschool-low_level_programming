@@ -12,8 +12,9 @@ int _atoi(char *s)
 	int started = 0;
 
 	while (*s != '\0')
-		if (*s == '-' && !started)
 	{
+		if (*s == '-' && !started)
+		{
 		signs = -signs;
 		}
 		else if (*s == '+' && !started)
@@ -22,12 +23,12 @@ int _atoi(char *s)
 		}
 		else if (*s >= '0' && *s <= '9')
 		{
-		num = (num * 10) + (*s - '0');
-		started = 1;
+			num = (num * 10) + (*s - '0');
+			started = 1;
 		}
 		else if (started)
 		{
-		break;
+			break;
 		}
 		s++;
 	}
