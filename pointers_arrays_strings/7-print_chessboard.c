@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print_chessboard - Function who prints a chessboard
@@ -13,7 +14,7 @@ void print_chessboard(char (*a)[8])
 	{
 		for (n = 0; n < 8; n++)
 		{
-			write(1, &&a[m][n], 1);
+			write(1, &a[m][n], 1);
 		}
 		write(1, "\n", 1);
 	}
