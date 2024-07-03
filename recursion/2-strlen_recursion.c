@@ -9,7 +9,7 @@
 int _strlen_recursion(char *s)
 {
 	int l = 0;
-	
+
 	while (*s != '\0')
 	{
 		l++;
