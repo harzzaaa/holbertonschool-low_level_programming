@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stddef.h>
 
 /**
  * alloc_grid - Function that return ptr to 2 dim array of ints
