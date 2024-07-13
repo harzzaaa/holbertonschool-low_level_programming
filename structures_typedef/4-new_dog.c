@@ -2,8 +2,7 @@
 #include "dog.h"
 
 /**
- * new_dog - function that create
- * a dog
+ * new_dog - function that create a dog
  * @name: name
  * @age: age
  * @owner: owner
@@ -12,45 +11,31 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *Doggy;
-	int cptname = 0;
-	int cptowner = 0;
-	int cpt;
+	int name_l = 0, owner_l = 0, m;
+	dog_t *doggy;
 
-	Doggy = malloc(sizeof(dog_t));
-	if (Doggy == NULL)
-	{
+	while (name[name_l])
+	name_l++;
+	while (owner[owner_l])
+	owner_l++;
+
+	doggy = (dog_t *)malloc(sizeof(dog_t));
+	if (doggy == NULL)
 		return (NULL);
-	}
 
-	for (cpt = 0; name[cpt]; cpt++)
-		cptname++;
-
-	for (cpt = 0; owner[cpt]; cpt++)
-		cptowner++;
-
-	Doggy->name = malloc(cptname + 1);
-	if (Doggy->name == NULL)
-	{
-	free(Doggy);
+	doggy->name = (char *)malloc(name_l + 1);
+	if (doggy->name == NULL)
 	return (NULL);
-	}
 
-	Doggy->owner = malloc(cptowner + 1);
-	if (Doggy->owner == NULL)
-	{
-	free(Doggy->name);
-	free(Doggy);
-		return (NULL);
-	}
+	doggy->owner = (char *)malloc(owner_l + 1);
+	if (doggy->owner == NULL)
+	return (NULL);
 
-	for (cpt = 0; cpt <= cptname; cpt++)
-	Doggy->name[cpt] = name[cpt];
+	for (m = 0; m <= name_l; m++)
+	doggy->name[m] = name[m];
+	doggy->age = age;
+	for (m = 0; m <= owner_l; m++)
+	doggy->owner[m] = owner[m];
 
-	Doggy->age = age;
-
-	for (cpt = 0; cpt <= cptowner; cpt++)
-	Doggy->owner[cpt] = owner[cpt];
-
-	return (Doggy);
+	return (doggy);
 }
