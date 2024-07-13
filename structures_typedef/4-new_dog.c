@@ -2,22 +2,22 @@
 #include "dog.h"
 
 /**
- **new_dog - function that create
- *a dog
- *@name: name
- *@age: age
- *@owner: owner
- *Return: dog
+ * new_dog - function that create
+ * a dog
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Return: dog
  */
 
-dog_d *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_d *Doggy;
+	dog_t *Doggy;
 	int cptname = 0;
 	int cptowner = 0;
 	int cpt;
 
-	Doggy = malloc(sizeof(dog_d));
+	Doggy = malloc(sizeof(dog_t));
 	if (Doggy == NULL)
 	{
 		return (NULL);
