@@ -1,19 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- *main - program that print arguments
- *@argc: argument
- *@argv: argument
- * Return: string a to argv
- */
+ * main - Function who prints the arguments it receives
+ *
+ * @argc: Argument Count
+ *
+ * @argv: Argument Vector
+ *
+ * Return: It returns the arguments printed line by line
+*/
 
 int main(int argc, char *argv[])
 {
-	int m;
 
-	for (m = 0; m < argc; m++)
+	int count;
+
+	for (count = 0; count < argc; count++)
 	{
-	printf("%s\n", argv[m]);
+		printf("%s\n", argv[count]);
 	}
 	return (0);
 }
