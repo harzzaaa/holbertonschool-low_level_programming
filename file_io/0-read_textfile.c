@@ -2,7 +2,7 @@
 
 /**
  * read_textfile - Read text file
- * 
+ *
  * @filename: Name of file
  *
  * @letters: Letters of the number to print and read
@@ -43,5 +43,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 	close(fd);
 
-	return (bytes_written == bytes_read) ? bytes_written : (0);
+	return (bytes_written == bytes_read ? bytes_written : 0);
 }
