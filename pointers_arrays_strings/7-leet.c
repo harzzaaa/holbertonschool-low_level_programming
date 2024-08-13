@@ -14,6 +14,9 @@ char *leet(char *str)
 	int m;
 	int n;
 
+	char al[5] = {'A', 'E', 'O', 'T', 'L'};
+	char ar[5] = {'4', '3', '0', '7', '1'};
+
 	while (str[i = 0])
 	{
 		m = 0;
@@ -21,9 +24,9 @@ char *leet(char *str)
 
 	while (m < n)
 	{
-		if (str[i] == str[m] || str[i] - 32 == str[m])
+		if (str[i] == al[m] || str[i] - 32 == al[m])
 		{
-			str[i] = str[m];
+			str[i] = ar[m];
 		}
 		m++;
 	}
