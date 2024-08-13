@@ -1,12 +1,11 @@
-#include <stdio.h>
 #include "dog.h"
 
 /**
- * new_dog - function that create a dog
- * @name: name
- * @age: age
- * @owner: owner
- * Return: dog
+ * new_dog - Function who create a dog
+ * @name: Name
+ * @age: Age
+ * @owner: Owner
+ * Return: Return a Dog or NULL if it fails.
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -15,27 +14,28 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *doggy;
 
 	while (name[name_l])
-	name_l++;
+		name_l++;
 	while (owner[owner_l])
-	owner_l++;
+		owner_l++;
 
-	doggy = (dog_t *)malloc(sizeof(dog_t));
+	doggy = malloc(sizeof(dog_t));
 	if (doggy == NULL)
 		return (NULL);
 
-	doggy->name = (char *)malloc(name_l + 1);
+	doggy->name = malloc(name_l + 1);
 	if (doggy->name == NULL)
-	return (NULL);
+		return (NULL);
 
-	doggy->owner = (char *)malloc(owner_l + 1);
+	doggy->owner = malloc(owner_l + 1);
 	if (doggy->owner == NULL)
-	return (NULL);
+		return (NULL);
 
 	for (m = 0; m <= name_l; m++)
-	doggy->name[m] = name[m];
-	doggy->age = age;
+		doggy->name[m] = name[m];
+		doggy->age = age;
 	for (m = 0; m <= owner_l; m++)
-	doggy->owner[m] = owner[m];
+		doggy->owner[m] = owner[m];
 
 	return (doggy);
+
 }
