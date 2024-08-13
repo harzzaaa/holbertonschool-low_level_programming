@@ -10,25 +10,22 @@
 
 char *leet(char *str)
 {
-	int i;
+	int i = 0;
 	int m;
-	int n;
+	int n = 5;
 
 	char al[5] = {'A', 'E', 'O', 'T', 'L'};
 	char ar[5] = {'4', '3', '0', '7', '1'};
 
-	while (str[i = 0])
+	while (str[i])
 	{
-		m = 0;
-		n = 5;
-
-	while (m < n)
-	{
-		if (str[i] == al[m] || str[i] - 32 == al[m])
+		for (m = 0; m < n; m++)
+		{
+		if (str[i] == al[m] || str[i] == al[m] + 32)
 		{
 			str[i] = ar[m];
+			break;
 		}
-		m++;
 	}
 	i++;
 	}
