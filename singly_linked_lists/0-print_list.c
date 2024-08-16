@@ -1,12 +1,11 @@
 #include "lists.h"
 
 /**
- * print_list - Function who prints all the elements of
- * the list_t list
+ * print_list - Function to print all elements of my structure.
  *
- * @h: Pointer to list
+ * @h: Pointer to list_t
  *
- * Return: Returns all the elements of list_t, if str is NULL, print (nil) or 0
+ * Return: Returns the number of nodes.
 */
 
 size_t print_list(const list_t *h)
@@ -15,16 +14,12 @@ size_t print_list(const list_t *h)
 
 	while (h != NULL)
 	{
-	if (h->str == NULL)
-	{
-		printf("[0] (nil)\n");
-	}
-	else
-	{
-		printf("[%u] %s\n", h->len, h->str);
-	}
 		count++;
-		h = h->next;
+	}
+	if (h != NULL)
+	{
+		printf("\n");
+		count++;
 	}
 	return (count);
 }
