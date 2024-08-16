@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * list_len - Function who returns the number of elements linked to list
+ * list_len - Function who returns the number of elements in the linked list
  *
- * @h: ptr
+ * @h: Ptr
  *
- * Return: Number of elements linked
+ * Return: Returns the elements in the list
 */
 
 size_t list_len(const list_t *h)
